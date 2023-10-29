@@ -1,0 +1,220 @@
+*{
+    margin: 0px;
+    font-family: BlinkMacSystemFont,Roboto,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol'
+}
+
+#banner{
+    display: flex;
+    justify-content: center;
+    height: 35em;
+    align-items: center;
+    border-bottom: #d6dce0 solid 1px;
+    background: url("../assets/class32.jpg") no-repeat;
+    background-size: cover;
+    background-position: 0%;
+}
+
+.logo-main{
+    width: 25em;
+    height: 10em;
+}
+
+#navbar{
+    height: 72px;
+    /* background-color: gray; */
+    display: flex;
+    /* border-bottom: grey solid 1px; */
+    box-shadow: 0 2px 4px rgba(0,0,0,.08), 0 4px 12px rgba(0,0,0,.08);
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+}
+
+#nav-logo{
+    width: 8em;
+    height: 3em;
+    margin-right: 20px;
+}
+
+.inputBox_container {
+    display: flex;
+    align-items: center;
+    /* flex-direction: row; */
+    max-width: 35em;
+    /* width: fit-content; */
+    height: fit-content;
+    background-color: #f7f9fa;
+    border-radius: 2em;
+    overflow: hidden;
+    border: #272727 solid 1px;
+    height: 2.8em;
+    width: 35em;
+}
+
+.search_icon {
+    height: 1em;
+    padding: 0 0.5em 0 0.8em;
+    fill: #8f9497;
+}
+
+.inputBox {
+    background-color: transparent;
+    color: #2b2b2b;
+    outline: none;
+    width: 100%;
+    border: 0;
+    padding: 0.5em 1.5em 0.5em 0;
+    font-size: 0.9em;
+}
+
+.nav-text{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-weight: 500;
+}
+
+.nav-text-group{
+    display: inline-flex;
+}
+
+.nav-text:hover{
+    color: #68bd44;
+    cursor: pointer;
+}
+
+.center-middle p{
+    text-align: center;
+    font-size: 1.3em;
+    color: #f7f9fa;
+    font-weight: 380;
+}
+
+h1{
+    margin: 0.5em;
+}
+
+
+
+
+
+
+.card {
+    --main-color: #000;
+    --submain-color: #78858F;
+    --bg-color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    width: 300px;
+    height: 384px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    background: var(--bg-color);
+    border-bottom: #d6dce0 solid 1px;
+
+  }
+  
+  .card__img {
+    height: 192px;
+    width: 100%;
+  }
+  
+  .card__img div {
+    height: 100%;
+    border-radius: 20px 20px 0 0;
+    background-color: #68bd44;
+  }
+  
+  .card__avatar {
+    position: absolute;
+    width: 114px;
+    height: 114px;
+    background: var(--bg-color);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: calc(10%);
+  }
+  
+  .card__avatar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+  }
+  
+  .card__title {
+    margin-top: 60px;
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--main-color);
+  }
+  
+  .card__subtitle {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--submain-color);
+  }
+  
+  .card__btn {
+    margin-top: 15px;
+    width: 76px;
+    height: 31px;
+    border: 2px solid var(--main-color);
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 11px;
+    color: var(--main-color);
+    background: var(--bg-color);
+    text-transform: uppercase;
+    transition: all 0.3s;
+  }
+  
+  .card__btn-solid {
+    background: var(--main-color);
+    color: var(--bg-color);
+  }
+  
+  .card__btn:hover {
+    background: var(--main-color);
+    color: var(--bg-color);
+  }
+  
+  .card__btn-solid:hover {
+    background: var(--bg-color);
+    color: var(--main-color);
+  }
+
+#teachers{
+    display: flex;
+    margin: 0em 2em 0em 2em;
+    gap: 2.5em;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#footer{
+    width: 100%;
+    height: 30em;
+    background-image: linear-gradient( #2c3d43,#33393c ,#34383a, #333333);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    color: #d6dce0;
+    margin-top: 2em;
+}
+
+.wrapper{
+    margin: 2em;
+}
+p.nav-text{
+    width: fit-content;
+    height: fit-content;
+    padding: 0%;
+}
+
