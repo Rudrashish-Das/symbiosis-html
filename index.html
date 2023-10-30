@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Symbiosis</title>
     <link rel="stylesheet" href="./styles/main.css">
     <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
     <link rel="icon" href="./assets/favicon.png">
 </head>
 <body>
     <div id="navbar">
-        <img id="nav-logo" src="./assets/logo-noback.png">
+
+        <img class="nav-logo prevent-select bg-scr" src="./assets/logo-noback.png">
+
         <div class="inputBox_container">
             <svg class="search_icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" alt="search icon">
                 <path d="M46.599 46.599a4.498 4.498 0 0 1-6.363 0l-7.941-7.941C29.028 40.749 25.167 42 21 42 9.402 42 0 32.598 0 21S9.402 0 21 0s21 9.402 21 21c0 4.167-1.251 8.028-3.342 11.295l7.941 7.941a4.498 4.498 0 0 1 0 6.363zM21 6C12.717 6 6 12.714 6 21s6.717 15 15 15c8.286 0 15-6.714 15-15S29.286 6 21 6z">
@@ -19,35 +21,102 @@
             <input class="inputBox" id="inputBox" type="text" placeholder="Search For Topics">
         </div>
         <div class="nav-text-group">
-            <div class="nav-text">Courses</div>
-            <div class="nav-text">Catagories</div>
-            <div class="nav-text">Prices</div>
-            <div class="nav-text">Contacts</div>
+            <div class="nav-text prevent-select">Courses</div>
+            <div class="nav-text prevent-select">Catagories</div>
+            <div class="nav-text prevent-select">Prices</div>
+            <div class="nav-text prevent-select">Contacts</div>
         </div>
+        <label class="popup prevent-select">
+            <input type="checkbox">
+            <div class="burger" tabindex="0">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <nav class="popup-window">
+              <!-- <legend>Actions</legend> -->
+              <ul>
+                <li>
+                  <button>
+                    
+                    <span>Courses</span>
+                  </button>
+                </li>
+                <li>
+                  <button>
+                    <span>Catagories</span>
+                  </button>
+                </li>
+                <li>
+                  <button>
+                    <span>Prices</span>
+                  </button>
+                </li>
+                <li>
+                  <button>
+                    <span>Contacts</span>
+                  </button>
+                </li>
+              </ul>
+            </nav>
+        </label>
     </div>
     <div id="banner">
         <div class="center-middle">
-            <img class="logo-main" src="./assets/logo-noback.png">
-            <p>Empowering Minds, One Lesson at a Time.</p>
+            <img class="logo-main prevent-select" src="./assets/logo-noback.png">
+            <p class="prevent-select">Empowering Minds, One Lesson at a Time.</p>
         </div>
     </div>
-    <h1>Our Teachers</h1>
+    <div id="why-sym">
+        <h1>Why</h1>
+        <h1 class="grad-text">Symbiosis?</h1>
+    </div>
+
+    <div id="highlights" class="container-vertically">
+        <div class="highlights starting-highlight">
+            <img src="./assets/favicon.png" class="prevent-select">
+            <div class="highlights-text">
+                <h2>Coaching Classes for XI and XII Standard</h2>
+                <p>Explore the art of concept with our structured material with intelligent question tackling and problem solving skills.</p>
+            </div>
+        </div>
+
+        <div class="highlights">
+            <div class="highlights-text right">
+                <h2>Structured And Targeted Study Material</h2>
+                <p>Explore the art of concept with our structured material with intelligent question tackling and problem solving skills.</p>
+            </div>
+            <img src="./assets/favicon.png" class="prevent-select">
+        </div>
+
+        <div class="highlights ending-highlight">
+            <img src="./assets/favicon.png" class="prevent-select">
+            <div class="highlights-text">
+                <h2>Tests On Regular Basis For Progress Tracking</h2>
+                <p>Explore the art of concept with our structured material with intelligent question tackling and problem solving skills.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="headings">
+        <h1>Our Faculties</h1>
+    </div>
     <div id="teachers">
         <div class="card">
             <div class="card__img"><div class="card-banner"></div></div>
-            <div class="card__avatar"><img src="./assets/teach1.jpg"></div>
+            <div class="card__avatar prevent-select"><img src="./assets/teach1.jpg"></div>
             <div class="card__title">Cameron Williamson</div>
             <div class="card__subtitle">Web Development</div>
         </div>
         <div class="card">
             <div class="card__img"><div class="card-banner"></div></div>
-            <div class="card__avatar"><img src="./assets/teach2.jpg"></div>
+            <div class="card__avatar prevent-select"><img src="./assets/teach2.jpg"></div>
             <div class="card__title">Cameron Williamson</div>
             <div class="card__subtitle">Web Development</div>
         </div>
         <div class="card">
             <div class="card__img"><div class="card-banner"></div></div>
-            <div class="card__avatar"><img src="./assets/teach3.jpg"></div>
+            <div class="card__avatar prevent-select"><img src="./assets/teach3.jpg"></div>
             <div class="card__title">Cameron Williamson</div>
             <div class="card__subtitle">Web Development</div>
             <!-- <div class="card__wrapper">
@@ -57,25 +126,39 @@
         </div>
         <div class="card">
             <div class="card__img"><div class="card-banner"></div></div>
-            <div class="card__avatar"><img src="./assets/teach4.jpg"></div>
+            <div class="card__avatar prevent-select"><img src="./assets/teach4.jpg"></div>
             <div class="card__title">Cameron Williamson</div>
             <div class="card__subtitle">Web Development</div>
         </div>
         <div class="card">
             <div class="card__img"><div class="card-banner"></div></div>
-            <div class="card__avatar"><img src="./assets/teach5.jpg"></div>
+            <div class="card__avatar prevent-select"><img src="./assets/teach5.jpg"></div>
             <div class="card__title">Cameron Williamson</div>
             <div class="card__subtitle">Web Development</div>
         </div>
     </div>
-    <div id="footer">
-        <div class="wrapper">
-            <img id="nav-logo" src="./assets/logo-noback.png">
-            <p class="nav-text">Newsletter</p>
-            <p class="nav-text">Certificate</p>
-            <p class="nav-text">Error Report</p>
-        </div>
+    <div class="headings">
+        <h1>Words From Our Director</h1>
     </div>
+    <div class="director-type highlights starting-highlight ending-highlight">
+        <img src="./assets/director.jpg" class="prevent-select">
+            <div class="highlights-text">
+                <h2>Ravindar Singh, Director</h2><br>
+                <p><strong class="grad-text quote quote-start">"</strong>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis reprehenderit ut consequatur. Beatae sint neque, at quas itaque rem. Praesentium, dolore esse quaerat et ipsum unde beatae amet mollitia eum!Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste rem non enim impedit ea reiciendis sapiente? Doloremque tempore, repudiandae nemo atque quam tenetur aperiam eius nostrum ratione repellendus harum perferendis.<strong class="grad-text quote quote-end">"</strong></p>
+            </div>
+    </div>
+
+    <footer>
+        <div id="footer">
+            <div class="wrapper">
+                <img class="nav-logo prevent-select" src="./assets/logo-noback.png">
+                <p class="nav-text prevent-select">Newsletter</p>
+                <p class="nav-text prevent-select">Certificate</p>
+                <p class="nav-text prevent-select">Error Report</p>
+            </div>
+        </div>
+    </footer>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="./src/main.js"></script>
 </body>

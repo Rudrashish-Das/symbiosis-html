@@ -5,3 +5,4 @@ setInterval(function () {
     $("#banner").css("background-image","url("+path+")");
     picture %= 4;
 }, 5000);
+
