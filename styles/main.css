@@ -605,7 +605,7 @@ p.nav-text{
     width: 382px;
     height: auto;
   }
-
+  
   /* .nav-logo{
     width: 0.01em;
     height: auto;
@@ -621,11 +621,11 @@ p.nav-text{
     width: 300px;
     height: auto;
   }
-
+  
   .center-middle{
     font-size: small;
   }
-
+  
   #why-sym {
     font-size: 0.7em;
   }
@@ -638,8 +638,25 @@ p.nav-text{
   }
 }
 
-/* @media (max-width: 320px) {
-
-} */
+@media (max-width: 420px) {
+  .director-type img{
+    width: 300px;
+    height: auto;
+  }
+  .nav-logo{
+    width: 4em;
+    height: auto;
+  }
+  .highlights{
+    font-size: 10px;
+    /* text-align: justify; */
+  }
+  #why-sym{
+    font-size: 10px;
+  }
+  .headings{
+    font-size: 9px;
+  }
+}
 
 
